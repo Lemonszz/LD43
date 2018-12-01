@@ -4,6 +4,7 @@
 	repeat(25)
 		instance_create_depth(x, y, depth -3, oBlood);
 	
+	if(doSpawn)
 		instance_create_depth(x, y, depth, oBirdSolid);
 	with(oEggSpawn)
 	{

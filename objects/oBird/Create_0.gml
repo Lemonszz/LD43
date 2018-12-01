@@ -17,3 +17,5 @@ vsp = 0;
 dead = false;
 
 onground = false;
+
+doSpawn = true;

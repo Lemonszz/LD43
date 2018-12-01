@@ -23,6 +23,8 @@ if(place_meeting(x, y + 1, oSolid))
 		var scaleChange = 0.5 * ENTITY_SCALE;
 		xscale = ENTITY_SCALE - scaleChange;
 		yscale = ENTITY_SCALE + scaleChange;
+		var s = audio_play_sound(snJump, 0 , false);
+		audio_sound_gain(s, 0.5, 0);
 	}
 }
 else

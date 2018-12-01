@@ -1,0 +1,1 @@
+txt = "THANKS FOR PLAYING!"

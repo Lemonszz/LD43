@@ -13,3 +13,9 @@ if(place_meeting(x, y, oFin))
 	audio_sound_gain(s, 0.15, 0);
 	room_goto_next();
 }
+
+if(place_meeting(x, y, oFxExplodeBig))
+{
+	doSpawn = false;
+	instance_destroy();
+}
