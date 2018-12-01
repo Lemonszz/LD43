@@ -1,0 +1,1 @@
+txt = "Press E (Controller: B) to kill yourself.\nYou can stand on your poor dead siblings."

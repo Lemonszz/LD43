@@ -1,0 +1,1 @@
+txt = "TEXT NOT SET D:";

@@ -1,0 +1,1 @@
+return mouse_check_button(argument0);

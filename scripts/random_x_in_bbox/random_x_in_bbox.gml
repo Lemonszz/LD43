@@ -1,0 +1,1 @@
+return random_range(bbox_left, bbox_right);

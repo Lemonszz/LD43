@@ -1,0 +1,1 @@
+return gamepad_button_check_pressed(0, argument0);

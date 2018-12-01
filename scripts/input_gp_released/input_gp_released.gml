@@ -1,0 +1,1 @@
+return gamepad_button_check_released(0, argument0);
