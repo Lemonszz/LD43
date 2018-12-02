@@ -14,7 +14,7 @@ if(place_meeting(x, y, oFin))
 	room_goto_next();
 }
 
-if(place_meeting(x, y, oFxExplodeBig))
+if(place_meeting(x, y, oFxExplodeBig) || place_meeting(x, y, oDoor))
 {
 	doSpawn = false;
 	instance_destroy();

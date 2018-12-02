@@ -30,3 +30,19 @@ if(keyboard_check_released(ord("M")))
 
 if(keyboard_check_released(ord("B")))
 	blood=  !blood;
+	
+repeat(15)
+{
+	var xPos = random_range(-16, room_width + 16);
+	var yPos = random_range(room_height + 16, room_height + 64);
+	
+	instance_create_depth(xPos, yPos, 199, oCircle);
+}
+
+repeat(15)
+{
+	var xPos = random_range(-16, room_width + 16);
+	var yPos = random_range(-16, -64);
+	
+	instance_create_depth(xPos, yPos, 199, oCircle2);
+}
